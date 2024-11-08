@@ -22,30 +22,7 @@ ____
 ____
 
 
-
-- install Python 3.8
-- install libs 
-```shell
-      pip3 install -r requirements.txt
-```
-
-* Set environment export for variables:
-```yaml
-      DJANGO_DB_HOST: db
-      DJANGO_DB_NAME: app
-      DJANGO_DB_USER: worker
-      DJANGO_DB_PASS: worker
-      DJANGO_DB_PORT: "5432"
-      DJANGO_DEBUG: "False"
-```
-
-
-* migrate database:
-```shell
-python3 manage.py migrate
-```
-
 * start application:
 ```shell
-python3 manage.py runserver 0.0.0.0:8000
+docker-compose up --build
 ```
