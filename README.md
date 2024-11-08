@@ -5,7 +5,7 @@
 <br>
 <h3></h3>
 
-Sample Python application on Django with PostgreSQL database.
+Sample Python application on Django with PostgreSQL database deployed in Docker.
 
 <h3>Requirements</h3>
 
@@ -16,6 +16,9 @@ ____
 - Pillow 9.0.0
 - psycopg2-binary 2.9.3
 - django-prometheus 2.2.0
+- docker 27.2.0
+- docker-compose 2.29.2
+ 
 
 <h3>Deployment</h3>
 
